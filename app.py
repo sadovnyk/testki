@@ -8,7 +8,7 @@ class TaskTrackerApp:
         self.root.geometry("500x600")
         self.root.configure(bg="#1e1e1e")
         self.title_label = tk.Label(
-            root, text="Мій список завдань", font=("Helvetica", 20, "bold"), bg="#1e1e1e", fg="white"
+            root, text="My Task List", font=("Helvetica", 20, "bold"), bg="#1e1e1e", fg="white"
         )
         self.title_label.pack(pady=10)
 
@@ -37,8 +37,8 @@ class TaskTrackerApp:
             self.task_listbox.insert(tk.END, task)
             self.entry.delete(0, tk.END)
         else:
-            messagebox.showwarning("dhfdfhdfhdfh", "Завдання не може бути порожнім!")
-
+            messagebox.showwarning("Error", "Завдання не може бути порожнім!")
+            
     def delete_task(self):
         try:
             selected_index = self.task_listbox.curselection()[0]
