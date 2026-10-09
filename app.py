@@ -7,7 +7,6 @@ class TaskTrackerApp:
         self.root.title("Dev Tasks Tracker v1.0")
         self.root.geometry("400x450")
         self.root.configure(bg="#f0f2f5")
-
         self.title_label = tk.Label(
             root, text="Мій список завдань", font=("Helvetica", 16, "bold"), bg="#f0f2f5"
         )
@@ -26,7 +25,6 @@ class TaskTrackerApp:
         )
         self.task_listbox.pack(pady=10)
 
-        # Кнопка видалити
         self.delete_button = tk.Button(
             root, text="Видалити обране", command=self.delete_task, bg="#f44336", fg="white", font=("Helvetica", 10, "bold")
         )
