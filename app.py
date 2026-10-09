@@ -37,7 +37,7 @@ class TaskTrackerApp:
             self.task_listbox.insert(tk.END, task)
             self.entry.delete(0, tk.END)
         else:
-            messagebox.showwarning("Помилка", "Завдання не може бути порожнім!")
+            messagebox.showwarning("Error", "Завдання не може бути порожнім!")
 
     def delete_task(self):
         try:
