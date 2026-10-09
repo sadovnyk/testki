@@ -5,7 +5,7 @@ class TaskTrackerApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Dev Tasks Tracker v1.0")
-        self.root.geometry("400x450")
+        self.root.geometry("500x600")
         self.root.configure(bg="#1e1e1e")
         self.title_label = tk.Label(
             root, text="Мій список завдань", font=("Helvetica", 16, "bold"), bg="#1e1e1e", fg="white"
@@ -16,9 +16,10 @@ class TaskTrackerApp:
         self.entry.pack(pady=5)
 
         self.add_button = tk.Button(
-            root, text="Додати завдання", command=self.add_task, bg="#4CAF50", fg="white", font=("Helvetica", 10, "bold")
+            root, text="Додати завдання", command=self.add_task, bg="#136A15", fg="white", font=("Helvetica", 10, "bold")
         )
         self.add_button.pack(pady=5)
+        #just comment
 
         self.task_listbox = tk.Listbox(
             root, font=("Helvetica", 11), width=35, height=12, selectbackground="black"
