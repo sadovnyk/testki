@@ -22,7 +22,7 @@ class TaskTrackerApp:
         #just comment
 
         self.task_listbox = tk.Listbox(
-            root, font=("Helvetica", 11), width=35, height=12, selectbackground="black"
+            root, font=("Helvetica", 11), width=35, height=12, selectbackground="#1CAD86"
         )
         self.task_listbox.pack(pady=10)
 
