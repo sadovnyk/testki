@@ -7,8 +7,8 @@ class TaskTrackerApp:
         self.root.title("Dev Tasks Tracker v1.0")
         self.root.geometry("400x450")
         self.root.configure(bg="#1e1e1e")
-        self.title_label = tk.Label(
-            root, text="Мій список завдань", font=("Helvetica", 16, "bold"), bg="#1e1e1e", fg="white"
+        #self.title_label = tk.Label(
+            root, text="Мій список завдань", font=("Helvetica",І 20, "bold"), bg="#1e1e1e", fg="white"
         )
         self.title_label.pack(pady=10)
 
