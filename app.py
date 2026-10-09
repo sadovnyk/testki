@@ -27,7 +27,7 @@ class TaskTrackerApp:
         self.task_listbox.pack(pady=10)
 
         self.delete_button = tk.Button(
-            root, text="Видалити обране", command=self.delete_task, bg="#f44336", fg="white", font=("Helvetica", 10, "bold")
+            root, text="Видалити обране", command=self.delete_task, bg="#6a1610", fg="white", font=("Helvetica", 10, "bold")
         )
         self.delete_button.pack(pady=5)
 
