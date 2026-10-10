@@ -1,0 +1,7 @@
+services:
+      app:
+        build: .
+        image: my_app
+        container_name: Task_List
+        ports:
+          - "6080:6080"
