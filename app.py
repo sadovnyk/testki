@@ -16,7 +16,7 @@ class TaskTrackerApp:
         self.entry.pack(pady=5)
 
         self.add_button = tk.Button(
-            root, text="Додати завдання", command=self.add_task, bg="#136A15", fg="white", font=("Helvetica", 10, "bold")
+            root, text="Add a task", command=self.add_task, bg="#136A15", fg="white", font=("Helvetica", 10, "bold")
         )
         self.add_button.pack(pady=5)
         #just comment
