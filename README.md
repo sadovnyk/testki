@@ -1,10 +1,12 @@
 Hello, this is my practice room!
+
 Here is how to run the app:
 
-git clone https://github.com/sadovnyk/testki.git
-cd testki
+1.  git clone https://github.com/sadovnyk/testki.git
 
-docker compose up --build
+2.  cd testki
+
+3.  docker compose up --build
 
 After building an image go to your browser and paste this:
 
