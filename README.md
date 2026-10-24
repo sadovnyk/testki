@@ -11,3 +11,5 @@ Here is how to run the app:
 After building an image go to your browser and paste this:
 
 http://localhost:6080/vnc.html
+
+erefefe
